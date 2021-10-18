@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test-01",
+      "setup": "npm install",
+      "run": "npm run test01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test-02",
+      "setup": "npm install",
+      "run": "npm run test02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test-03",
+      "setup": "npm install",
+      "run": "npm run test03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test-04",
+      "setup": "npm install",
+      "run": "npm run test04",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test-05",
+      "setup": "npm install",
+      "run": "npm run test05",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
