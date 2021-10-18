@@ -1,0 +1,182 @@
+/*
+FIGYELEM: a __selector__ szó helyére kell beírni a jó szelektorokat!
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+/* 1: a html és a body elem */
+__selector__
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 2: a menu__sidebar osztályú elemek */
+__selector__
+{
+  position: fixed;
+  background-color: #d1d1d1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 80px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 3: a menu__content oszályú elemek */
+__selector__
+{
+  transform: translateX(-100%);
+  text-transform: lowercase;
+  position: fixed;
+  background-color: #f1f1f1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 600px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 4: a menu__items osztályú elemek */
+__selector__
+{
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+/* 5: a menu__item osztályú elemek */
+__selector__
+{
+  list-style: none;
+  margin: 8px 0;
+}
+
+/* 6: a menu__item-link osztályú elemek */
+__selector__
+{
+  color: #555;
+  text-decoration: none;
+}
+
+/* 7: a menu__hamburger osztályú elemek */
+__selector__
+{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  font-size: 0;
+  text-indent: -9999px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* 8: azok a span elemek, amelyek menu__hamburger osztályú elemen belül vannak */
+__selector__
+{
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  height: 5px;
+  background: white;
+}
+
+/* 9: a menu__hamburger osztályú elemeken belül lévő span elemek 
+before vagy after pszeudo-elemei */
+__selector__
+{
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  content: "";
+}
+
+/* 10: a menu__hamburger osztályú elemeken belül lévő span elemek 
+before pszeudo-elemei */
+__selector__
+{
+  top: -15px;
+}
+
+/* 11: a menu__hamburger osztályú elemeken belül lévő span elemek
+ after pszeudo-elemei */
+__selector__
+{
+  bottom: -15px;
+}
+
+/* 12: a menu__hamburger--htx osztályú elemeken belül lévő span elemek */
+__selector__
+{
+  transition: background 0s 0.3s;
+}
+
+/* 13: a menu__hamburger--htx osztályú elemeken belül lévő span elemek 
+before vagy after pszeudo-elemei */
+__selector__
+{
+  transition-duration: 0.3s, 0.3s;
+  transition-delay: 0.3s, 0s;
+}
+
+/* 14: a menu__hamburger--htx osztályú elemeken belül lévő span elemek 
+before pszeudo-elemei */
+__selector__
+{
+  transition-property: top, transform;
+}
+
+/* 15: a menu__hamburger--htx osztályú elemeken belül lévő span elemek 
+after pszeudo-elemei */
+__selector__
+{
+  transition-property: bottom, transform;
+}
+
+/* 16: a menu__hamburger--htx és az is-active osztályhoz egyszerre tartozó
+ elemeken belül lévő span elemek */
+__selector__
+{
+  background: none;
+}
+
+/* 17: a menu__hamburger--htx és az is-active osztályhoz egyszerre tartozó
+ elemeken belül lévő span elemek before pszeudo-elemei */
+__selector__
+{
+  top: 0;
+  transform: rotate(45deg);
+}
+
+/* 18: a menu__hamburger--htx és az is-active osztályhoz egyszerre tartozó
+ elemeken belül lévő span elemek after pszeudo-elemei */
+__selector__
+{
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+/* 19: a menu__hamburger--htx és az is-active osztályhoz egyszerre tartozó
+ elemeken belül lévő span elemek before vagy after pszeudo-elemei */
+__selector__
+{
+  transition-delay: 0s, 0.3s;
+}
