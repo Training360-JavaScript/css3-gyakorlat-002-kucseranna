@@ -85,7 +85,7 @@ html, body
 }
 
 /* 8: azok a span elemek, amelyek menu__hamburger osztályú elemen belül vannak */
-.menu_hamburger span
+.menu__hamburger span
 {
   display: block;
   position: absolute;
